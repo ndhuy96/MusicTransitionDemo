@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0469FB5D23103A7B00399736 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469FB5C23103A7B00399736 /* ContainerViewController.swift */; };
+		0469FB5F23103A9500399736 /* CountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469FB5E23103A9500399736 /* CountingLabel.swift */; };
 		0485CCCB22CE454F00BFB827 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0485CCCA22CE454F00BFB827 /* ModalViewController.swift */; };
 		0485CCCD22CE46B600BFB827 /* MusicPlayerTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0485CCCC22CE46B600BFB827 /* MusicPlayerTransitionAnimation.swift */; };
 		04DD3DDF22C26BBB0077AF3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD3DDE22C26BBB0077AF3B /* AppDelegate.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0469FB5C23103A7B00399736 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		0469FB5E23103A9500399736 /* CountingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingLabel.swift; sourceTree = "<group>"; };
 		0485CCCA22CE454F00BFB827 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		0485CCCC22CE46B600BFB827 /* MusicPlayerTransitionAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerTransitionAnimation.swift; sourceTree = "<group>"; };
 		04DD3DDB22C26BBB0077AF3B /* MusicTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +61,7 @@
 		043099A222F5921D001E5B80 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				0469FB5B231039D000399736 /* ContainerView */,
 				043099A522F594DE001E5B80 /* Modal */,
 				043099A322F594AC001E5B80 /* Main */,
 				043099A422F594C1001E5B80 /* Storyboards */,
@@ -92,8 +97,17 @@
 			isa = PBXGroup;
 			children = (
 				0485CCCC22CE46B600BFB827 /* MusicPlayerTransitionAnimation.swift */,
+				0469FB5E23103A9500399736 /* CountingLabel.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		0469FB5B231039D000399736 /* ContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				0469FB5C23103A7B00399736 /* ContainerViewController.swift */,
+			);
+			path = ContainerView;
 			sourceTree = "<group>";
 		};
 		04DD3DD222C26BBB0077AF3B = {
@@ -262,7 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0485CCCD22CE46B600BFB827 /* MusicPlayerTransitionAnimation.swift in Sources */,
+				0469FB5F23103A9500399736 /* CountingLabel.swift in Sources */,
 				04DD3DE122C26BBB0077AF3B /* MainViewController.swift in Sources */,
+				0469FB5D23103A7B00399736 /* ContainerViewController.swift in Sources */,
 				0485CCCB22CE454F00BFB827 /* ModalViewController.swift in Sources */,
 				04DD3DDF22C26BBB0077AF3B /* AppDelegate.swift in Sources */,
 			);
@@ -414,6 +430,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2FVQE295NZ;
 				INFOPLIST_FILE = "$(SRCROOT)/MusicTransition/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -433,6 +450,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2FVQE295NZ;
 				INFOPLIST_FILE = "$(SRCROOT)/MusicTransition/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

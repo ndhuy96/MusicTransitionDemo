@@ -66,7 +66,7 @@ final class MainViewController: UIViewController {
     }
     
     @IBAction func handleMiniPlayerButtonTapped(_ sender: Any) {
-         present(modalVC, animated: true, completion: nil)
+         present(modalVC, animated: true)
     }
     
     fileprivate func generateImageWithColor(_ color: UIColor) -> UIImage {
